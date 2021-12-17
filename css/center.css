@@ -16,14 +16,16 @@ body {
 }
 
 a {
-  color: #ffc000ff;
+  /* color: #ffc000ff; */
+  color: #18d26e;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color:#ffc000ff;
+  color: #18d26e;
+  /* color:#ffc000ff; */
   outline: none;
   text-decoration: none;
 }
@@ -71,7 +73,8 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #ffc000ff;
+    /* color: #18d26e; */
+    background: #18d26e;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -88,13 +91,13 @@ h6 {
   }
   
   .back-to-top:focus {
-    background:#ffc000ff;
+    background:#18d26e;
     color: #fff;
     outline: none;
   }
   
   .back-to-top:hover {
-    background:#ffc000ff;
+    background:#18d26e;
     color: #fff;
   }
   
@@ -338,7 +341,7 @@ svg {
     font-size: 1rem;
     white-space: normal;
     color: white;
-    background: #ffc000ff;
+    background: #18d26e;
 }
 
 .timeline ol li div::before {
@@ -359,7 +362,7 @@ svg {
 .timeline ol li:nth-child(odd) div::before {
     top: 100%;
     border-width: 8px 8px 0 0;
-    border-color: #ffc000ff transparent transparent transparent;
+    border-color: #18d26e transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -369,7 +372,7 @@ svg {
 .timeline ol li:nth-child(even) div::before {
     top: -8px;
     border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent #ffc000ff;
+    border-color: transparent transparent transparent #18d26e;
 }
 
 .timeline time {
@@ -553,7 +556,7 @@ svg {
 
 .info {
     padding: 5px;
-    background-color: #ffc000ff;
+    background-color: #18d26e;
     border-radius: 10px;
     margin-bottom: 5px;
     width: 100%;
