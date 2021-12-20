@@ -228,7 +228,7 @@ var simplemaps_countrymap_mapdata={
       lng: "86.7059",
       name: "Sindri",
       url: "./center_sindri.html",
-      description: "Sindri Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LiGHT Sindri was established in June 2021 in online mode. Our team enthusiastically participated in the INTER CENTER COMPETITION and graciously organized its first event in the month of November targeting teachers as a channel to bring significant impact to the education system. We also introduced the solutions like usage of ‘chatbot’ in schools and presented a live demonstration of a self-prepared ‘Telegram Bot’ for both teachers and students. Starting with such an impactful event, LiGHT Sindri focuses on working for those sections of society that are still untouched and need to be worked upon for a better society."
     },
     "2": {
       lat: "31.6340",
@@ -242,21 +242,21 @@ var simplemaps_countrymap_mapdata={
       lng: "77.0082",
       name: "Akola",
       url: "./center_akola.html",
-      description: "Akola Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "Light Akola was established in June 2021 in a tough pandemic time period in India with a motivation to serve the community. For the last 6 months Light Akola has proved its capabilities by actively conducting events in online mode. Akola aims to have equal opportunity for all helping the students with low or no access to quality education. Conducting activities like skill development workshops etc for class 8-12 students. Akola is here to serve the society using all possible efforts, with this constructive ideology, we aspire to be fruitful for the societ"
     },
     "4": {
       lat: "20.2961",
       lng: "85.8245",
       name: "Bhubaneswar",
       url: "./center_bhubaneswar.html",
-      description: "Bhubaneswar Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LiGHT Bhubaneswar was established in June 2021 in online mode. The team is motivated to solve real world problems using innovative solutions. LiGHT Bhubaneswar aims to encourage the young minds of the country to utilize their brains for the upliftment of the weaker sections of the society and work on the SDGs. The team visited about 4 government schools to introduce them about various future opportunities, scholarships and fields of education."
     },
     "5": {
       lat: "13.0827",
       lng: "80.2707",
       name: "Chennai",
       url: "./center_chennai.html",
-      description: "Chennai Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "We were in need of a group of passionate volunteers, someone youthful and earnest to accept this huge opportunity, and started a centre for LIGHT in our college."
     },
     "6": {
       lat: "21.2514",
@@ -298,7 +298,7 @@ var simplemaps_countrymap_mapdata={
       lng: "78.5074",
       name: "Thatipur",
       url: "./center_gwalior thatipur.html",
-      description: "Thatiput Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "Light Gwalior Thatipur was established in May 2021. We are common people, we don't want to change the world, we want to improve it first. We aim to take small steps on sustainability and work on ground level to improve the conditions around us as whole."
     },
     "12": {
       lat: "24.7914",
