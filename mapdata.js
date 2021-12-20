@@ -221,7 +221,7 @@ var simplemaps_countrymap_mapdata={
       lng: "77.4352",
       name: "Samvedna",
       url: "./center_samvedna.html",
-      description: "Samvedna Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "Light Samvedna works with a vision to channelize the youth towards social challenges. Creating social leaders who can solve social problems with the utilization of their engineering skills has always been our main intention while working in this sector. On the other hand, LiGHT Wardha believes LiGHT is an admirable platform and being a part of it was a great investment for all of us as it not only helps in shaping the society but it will also help us to develop our professional skills."
     },
     "1": {
       lat: "23.7483",
@@ -234,7 +234,7 @@ var simplemaps_countrymap_mapdata={
       lat: "31.6340",
       lng: "74.8723",
       name: "Sukhmani",
-      description: "Sukhmani Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever",
+      description: "LIGHT SUKHMANI was formed in november 2019 .The centre was made with determination and by hardworking people for the betterment of the society. Our vision is to work hard and learn new skills with our fellow members and solve various problems of the society, and expand our horizon of work and network with people.",
       url: "./center_sukhmani.html"
     },
     "3": {
@@ -263,28 +263,28 @@ var simplemaps_countrymap_mapdata={
       lng: "81.6296",
       name: "Raipur",
       url: "./center_raipur.html",
-      description: "Raipur Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LiGHT aims in helping people's social, economic, cultural development and encouraging them to find solutions to their problems based on available sources."
     },
     "7": {
       lat: "20.7453",
       lng: "78.6022",
       name: "Wardha",
       url: "./center_wardha.html",
-      description: "Wardha Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LiGHT Wardha believes LiGHT is an admirable platform and being a part of it was a great investment for all of us as it not only helps in shaping the society but it will also help us to develop our professional skills."
     },
     "8": {
       lat: "10.7867",
       lng: "76.6548",
       name: "Palakkad",
       url: "./center_palakkad.html",
-      description: "Palakkad Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LIGHT has come up with a platform to accomplish the necessities of the feeble fragments of a community. It is a unique body whose fabric has been woven by a very strong network of socially motivated students."
     },
     "9": {
       lat: "26.9124",
       lng: "75.7873",
       name: "Jaipur",
       url: "./center_jaipur.html",
-      description: "Jaipur Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "Through Light Jaipur, students hope to get exposure to the real-life problems of our country at the grass-root level. This platform helps in making people aware of problems surrounding them and the ways to solve these problems."
     },
     "10": {
       lat: "26.1468",
@@ -305,7 +305,14 @@ var simplemaps_countrymap_mapdata={
       lng: "85.0002",
       name: "Gaya",
       url: "./center_gaya.html",
-      description: "Gaya Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever"
+      description: "LiGHT is medium for enhancement of your own social skills and problem tackling ability, and we have experienced this in real life. We are delighted to be a part of this organization that reaches out to the weaker sections of society, works for their upliftment and believes in bringing happiness to the lives of others."
+    },
+    "13": {
+      lat: "22.3460",
+      lng: "87.2320",
+      name: "Kharagpur",
+      description: "LiGHT started its journey in 2017. LIGHT came up with a platform to accomplish the necessities of the feeble fragments of a community. It is a unique body whose fabric has been woven by a very strong network of socially motivated students.",
+      url: "#"
     }
   },
   labels: {},
