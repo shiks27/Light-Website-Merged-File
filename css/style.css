@@ -591,7 +591,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h3 {
   font-size: 32px;
   color: #111;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -1457,6 +1456,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.footer-link{
+  color: #13a456;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1764,5 +1767,9 @@ h2 {
   margin-bottom: 10px;
   font-size: 17px;
   font-weight: bold;
+}
+
+.footerhead {
+  text-align: left;
 }
 	
