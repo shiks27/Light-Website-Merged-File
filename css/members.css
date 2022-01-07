@@ -32,7 +32,7 @@ h3 {
 @import url(https://fonts.googleapis.com/css?family=Roboto:900,300);
 body {
     background-color: #f0f0f0;
-    font-family: roboto;
+    /* font-family: roboto; */
 }
 @media (max-width: 996px) and (min-width: 600px) {
 
