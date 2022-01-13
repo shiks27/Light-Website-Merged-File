@@ -24,6 +24,7 @@
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Libraries CSS Files -->
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -124,38 +125,56 @@
 <body>
 
 <!-- #header -->
-<header id="header" class="header-scrolled">
-    <div class="container-fluid">
-      <img id="logo-img" src="img/LiGHT_logo (1).png" alt="logo" width="50px" style="border-radius: 30%;">
-      <div id="logo" class="pull-left">
-  
-        <h1><a href="#intro" class="scrollto">LiGHT</a></h1>
-      </div>
-  
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li ><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="center.html">Centers</a></li>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container ">
+      <img src="img/light_logo (1).png" alt="" height="50px">
+      <a class="navbar-brand" href="#">LiGHT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="center.html">Centers</a>
+          </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Events
             </a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="rise.html">Rise</a></li>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="rise.html">RISE</a></li>
               <li><a class="dropdown-item" href="ccp.html">CCP</a></li>
+              
               <li><a class="dropdown-item" href="cleanliness.html">Cleanliness Drive</a></li>
             </ul>
           </li>
-          <li ><a href="networkpage.html">Our Network</a></li>
-          <li class="menu-active"><a href="members.html">Members</a></li>
-          <li><a href="Support Us.html">Support Us</a></li>
-          <li><a href="https://www.gyws.org/">GYWS</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="networkpage.html">Our Network</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Support Us.html">Support Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.gyws.org/">GYWS</a>
+          </li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
     </div>
-  </header>
+  </nav>
+
   
    <!-- #header -->
 
@@ -185,26 +204,26 @@
                     <br>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                          <a class="nav-link active"  href="#ceo">Chief Executive Officer</a>
+                          <a class="nav-link active image-post"  href="#ceo">Chief Executive Officer</a>
                         </li>
                         
                         <li class="nav-item">
-                          <a class="nav-link"  href="#saeo">LiGHT Officers</a>
+                          <a class="nav-link image-post"  href="#saeo">LiGHT Officers</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link "  href="#heads">LiGHT Heads</a>
+                          <a class="nav-link image-post"  href="#heads">LiGHT Heads</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link "  href="#sems">SEMs</a>
+                            <a class="nav-link image-post"  href="#sems">SEMs</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#webd">Web D Team</a>
+                            <a class="nav-link image-post"  href="#webd">Web D Team</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#ssd">SSD Team</a>
+                            <a class="nav-link image-post"  href="#ssd">SSD Team</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#media_design">Design and Media Heads</a>
+                            <a class="nav-link image-post"  href="#media_design">Design and Media Heads</a>
                           </li>
                       </ul>
                 </div>
@@ -3124,7 +3143,7 @@ Footer
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
