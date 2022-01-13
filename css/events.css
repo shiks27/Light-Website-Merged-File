@@ -3,6 +3,56 @@
   }
   
   
+
+
+
+
+  /*Moniraj*/
+  .section-header {
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 0px;
+  }
+ body nav.navbar.bg-dark{
+    background-color: #000000 !important;
+    color: #fff;
+  }
+  body nav.navbar.bg-dark .container{
+    color: #FFF;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: #FFF !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all .8s;
+  }
+  .navbar-light .navbar-brand{
+    color: #FFF !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+    transition: all .8s;
+    margin-left: 5px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover{
+    color:#18d26e !important;
+  }
+  .navbar-light .navbar-toggler-icon{
+    background-color: #fff;
+  }
+  .navbar-nav{
+    align-items: center;
+  }
+
+
+
+
+
+  
   .event-card{
       height:350px;
       width:300px;
