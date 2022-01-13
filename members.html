@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Light</title>
+    <title>LiGHT</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
+    <link href="img/LiGHT_logo (1).png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -24,13 +24,14 @@
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Libraries CSS Files -->
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/LiGHTbox/css/LiGHTbox.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
@@ -124,43 +125,71 @@
 <body>
 
 <!-- #header -->
-<header id="header" class="header-scrolled">
-    <div class="container-fluid">
-      <img id="logo-img" src="img/logo.jpg" alt="logo" width="50px" style="border-radius: 30%;">
-      <div id="logo" class="pull-left">
-  
-        <h1><a href="#intro" class="scrollto">LiGHT</a></h1>
-      </div>
-  
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="center.html">Centers</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="networkpage.html">Our Network</a></li>
-          <li class="menu-active"><a href="members.html">Members</a></li>
-          <li><a href="#contact">Support Us</a></li>
-    <li><a href="https://www.gyws.org/">GYWS</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container ">
+      <img src="img/light_logo (1).png" alt="" height="50px">
+      <a class="navbar-brand" href="#">LiGHT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="center.html">Centers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="rise.html">RISE</a></li>
+              <li><a class="dropdown-item" href="ccp.html">CCP</a></li>
+              
+              <li><a class="dropdown-item" href="cleanliness.html">Cleanliness Drive</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="networkpage.html">Our Network</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="members.html">Members</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Support Us.html">Support Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.gyws.org/">GYWS</a>
+          </li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
     </div>
-  </header>
+  </nav>
+
   
    <!-- #header -->
 
     <!--==========================
     Intro Section
   ============================-->
-    <section >
-        <div class="container-fluid">
-            <div class="row" style="background-image: url(img/members/team.jpg) ; background-size: 100% 400px; height: 400px;">
-                <center style="margin: auto;">
-                    <header class="section-header"><h3>our members</h3></header>
-                </center>
-            </div>
+  <section >
+    <div class="container-fluid">
+        <div class="row" style="background-image: url(Together_we_can.jpg) ; background-size: 100% 400px; height: 400px; background-repeat: no-repeat;">
+            <center style="margin: auto;">
+                <!-- <header class="section-header"><p style="font-size: 50px;  font-weight: bold; color:yellow; text-shadow: 4px 4px black; ">OUR MEMBERS</p></header> -->
+            </center>
         </div>
-    </section>
+    </div>
+</section>
     <!-- #intro -->
 
     <!--members page----------
@@ -175,23 +204,26 @@
                     <br>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                          <a class="nav-link active"  href="#ceo">Chief Executive Officer</a>
+                          <a class="nav-link active image-post"  href="#ceo">Chief Executive Officer</a>
                         </li>
                         
                         <li class="nav-item">
-                          <a class="nav-link"  href="#saeo">LiGHT Officers</a>
+                          <a class="nav-link image-post"  href="#saeo">LiGHT Officers</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link "  href="#heads">LiGHT Heads</a>
+                          <a class="nav-link image-post"  href="#heads">LiGHT Heads</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link "  href="#sems">LiGHT SEMs</a>
+                            <a class="nav-link image-post"  href="#sems">SEMs</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#webd">Web D Team</a>
+                            <a class="nav-link image-post"  href="#webd">Web D Team</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link "  href="#media_design">Design and Media Heads</a>
+                            <a class="nav-link image-post"  href="#ssd">SSD Team</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link image-post"  href="#media_design">Design and Media Heads</a>
                           </li>
                       </ul>
                 </div>
@@ -211,7 +243,7 @@
                                 <div class="col-lg-8 mx-auto text-center">
                                     <header class="section-header"><p>We are a group of individuals based in IIT Kharagpur who have seen the success of the strategies and plans of GYWS, IIT Kharagpur, one of India's largest govt. reg. student run NGO which aims at the socio economic development
                                         of the underprivileged near the IIT Kharagpur campus. We were inspired to reciprocate the same to various other parts of the nation so as to create a greater impact by spreading knowledge and experience gained through GYWS
-                                        which has been running successfully since 2002 and now has over 150 active members and a budget of 30 lakh INR per annum. LIGHT currently aims at forming teams of spirited students in various colleges across India and we
+                                        which has been running successfully since 2002 and now has over 150 active members and a budget of 30 lakh INR per annum. LiGHT currently aims at forming teams of spirited students in various colleges across India and we
                                         have already succeeded in convincing over 20 colleges which include various reputed IITs, NITs and IIITs.
                                     </p>
                                     </header>
@@ -619,7 +651,7 @@
                                             <a href="https://www.facebook.com/raunak.himmatramkaraghav">
                                                 <li><i class="fa fa-facebook"></i></li>
                                             </a>
-                                            <a href="mailto:raunak1503.light@gmail.com">
+                                            <a href="mailto:raunak1503.LiGHT@gmail.com">
                                                 <li><i class="fa fa-envelope"></i></li>
                                             </a>
                                             <a href="https://www.linkedin.com/in/raunak-himmatramka-68575b1a6">
@@ -727,7 +759,7 @@
                    
                 </section>
                 <section  id="sems">
-                    <h3 style="text-align: center; padding-top: 25px; color: black"><strong>LiGHT SEMs</strong></h3>
+                    <h3 style="text-align: center; padding-top: 25px; color: black"><strong>Senior Executive Members</strong></h3>
                      <div class="row">
                          
                          <div class="col-lg-4 col-sm-12">
@@ -1709,15 +1741,18 @@
 </section>
 
 
+
+
+
 <section id="webd">
-<h3 style="text-align: center; padding-top: 25px; color: black"><strong>WEB DEV Team</strong></h3>
+<h3 style="text-align: center; padding-top: 25px; color: black"><strong>Web Development Team</strong></h3>
 <div class="row">
     
     <div class="col-lg-4 col-sm-12">
         <center>
             <div class="q">
                 <div class="avatar-flip">
-                    <img src="img/WEB_TEAM/Abhijeet Gupta.jpg " height="150" width="150">
+                    <img src="img/WEB_TEAM/Abhijeet Gupta.jpg" height="150" width="150">
                     <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
                 </div>
                 <h2>Abhijeet Gupta </h2>
@@ -2042,656 +2077,7 @@
 
 </section>
 
-
-
-
-
-
-
-
-<section id="media_design">
-<h3 style="text-align: center; padding-top: 25px; color: black"><strong>Design and Media Heads</strong></h3>
-<div class="row">
-    <div class="col-md-12 col-lg-4 col-sm-12">
-
-        <center>
-            <div class="q">
-            <div class="avatar-flip">
-            <img src="img/Media_Team/Abhinav Kumar.jpg" height="150" width="150">
-            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-            </div>
-            <h2>Abhinav Kumar</h2>
-            <h4>LiGHT Sindri</h4>
-            <!--
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            -->
-            <div class="icons">
-            <ul>
-               <a href="#" >
-                   <li><i class="fa fa-facebook"></i></li>
-               </a>
-               <a href="mailto:abhikr987654@gmail.com" target="_blank">
-                   <li><i class="fa fa-envelope"></i></li>
-               </a>
-               <a href="https://www.linkedin.com/in/abhinav-kumar-018366201" target="_blank" >
-                   <li><i class="fa fa-linkedin"></i></li>
-               </a>
-            </ul>
-            </div>
-            </div>
-            </center>
-
-    </div>
-    <div class="col-md-12 col-lg-4 col-sm-12">
-        <center>
-        <div class="q">
-        <div class="avatar-flip">
-        <img src="img/Media_Team/Akul Agrawal.JPG" height="150" width="150">
-        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-        </div>
-        <h2>Akul Agrawal</h2>
-        <h4>LiGHT Bhubaneswar</h4>
-        <!--
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        -->
-        <div class="icons">
-        <ul>
-           <a href="#" >
-               <li><i class="fa fa-facebook"></i></li>
-           </a>
-           <a href="mailto:akulagrawal228@gmail.com" target="_blank">
-               <li><i class="fa fa-envelope"></i></li>
-           </a>
-           <a href="https://www.linkedin.com/in/akul-agrawal-a20b88179" target="_blank">
-               <li><i class="fa fa-linkedin"></i></li>
-           </a>
-        </ul>
-        </div>
-        </div>
-        </center>
-        </div>
-        <div class="col-md-12 col-lg-4 col-sm-12">
-            <center>
-            <div class="q">
-            <div class="avatar-flip">
-            <img src="img/Design_Team/Anishka Soni.JPG" height="150" width="150">
-            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-            </div>
-            <h2>Anishka Soni </h2>
-            <h4>LiGHT Gwalior Thatipur</h4>
-            
-            <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
-            
-            <div class="icons">
-               <ul>
-                   <a href="#" >
-                       <li><i class="fa fa-facebook"></i></li>
-                   </a>
-                   <a href="mailto:anishkasoni2000@gmail.com" target="_blank">
-                       <li><i class="fa fa-envelope"></i></li>
-                   </a>
-                   <a href="https://www.linkedin.com/in/anishkasoni20" target="_blank">
-                       <li><i class="fa fa-linkedin"></i></li>
-                   </a>
-               </ul>
-            </div>
-            </div>
-            </center>
-            </div>
-            
-           
-            
-            
-            
-            
-            
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-4 col-sm-12">
-                    <center>
-                    <div class="q">
-                    <div class="avatar-flip">
-                    <img src="img/Design_Team/Anshul sahu.jpg" height="150" width="150">
-                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                    </div>
-                    <h2>Anshul Sahu</h2>
-                    <h4>LiGHT Gwalior Thatipur</h4>
-                    <!--
-                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                    <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    -->
-                    <div class="icons">
-                    <ul>
-                       <a href="#" >
-                           <li><i class="fa fa-facebook"></i></li>
-                       </a>
-                       <a href="mailto:anshulsahu4268@gmail.com" target="_blank">
-                           <li><i class="fa fa-envelope"></i></li>
-                       </a>
-                       <a href="#" >
-                           <li><i class="fa fa-linkedin"></i></li>
-                       </a>
-                    </ul>
-                    </div>
-                    </div>
-                    </center>
-                    </div>
-                    <div class="col-lg-4 col-sm-12">
-                        <center>
-                            <div class="q">
-                                <div class="avatar-flip">
-                                    <img src="img/Design_Team/Ayush Panda.jpg" height="150" width="150">
-                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                                </div>
-                                <h2>Ayush Panda</h2>
-                                <h4>LiGHT Bhubaneswar </h4>
-                    <!--
-                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    -->
-                                <div class="icons">
-                                    <ul>
-                                        <a href="#" >
-                                            <li><i class="fa fa-facebook"></i></li>
-                                        </a>
-                                        <a href="maito:Ayushiit52@gmail.com " target="_blank">
-                                            <li><i class="fa fa-envelope"></i></li>
-                                        </a>
-                                        <a href="#">
-                                           <li><i class="fa fa-linkedin"></i></li>
-                                       </a>
-                                   </ul>
-                               </div>
-                           </div>
-                       </center>
-                   </div>
-                   <div class="col-lg-4 col-sm-12">
-                    <center>
-                        <div class="q">
-                        <div class="avatar-flip">
-                        <img src="img/Media_Team/Bunga Havilah.jpg" height="150" width="150">
-                        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                        </div>
-                        <h2>Bunga Havilah</h2>
-                        <h4>LiGHT Raipur</h4>
-                        <!--
-                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        -->
-                        <div class="icons">
-                        <ul>
-                           <a href="https://www.facebook.com/havilah.havilah.56" target="_blank">
-                               <li><i class="fa fa-facebook"></i></li>
-                           </a>
-                           <a href="mailto:havilahbunga178100@gmail.com" target="_blank">
-                               <li><i class="fa fa-envelope"></i></li>
-                           </a>
-                           <a href="https://www.linkedin.com/in/bunga-havilah-65566b1b9" target="_blank">
-                               <li><i class="fa fa-linkedin"></i></li>
-                           </a>
-                        </ul>
-                        </div>
-                        </div>
-                        </center>
-                </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-4 col-sm-12">
-                        <center>
-                            <div class="q">
-                                <div class="avatar-flip">
-                                    <img src="img/Design_Team/Govind Kumar.jpg" height="150" width="150">
-                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                                </div>
-                                <h2>Govind Kumar </h2>
-                                <h4>LiGHT Raipur</h4>
-                    
-                                <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
-                    
-                                <div class="icons">
-                                    <ul>
-                                        <a href="#" >
-                                            <li><i class="fa fa-facebook"></i></li>
-                                        </a>
-                                        <a href="mailto:govindkumar38980@gmail.com" target="_blank">
-                                            <li><i class="fa fa-envelope"></i></li>
-                                        </a>
-                                        <a href="#" >
-                                            <li><i class="fa fa-linkedin"></i></li>
-                                        </a>
-                                    </ul>
-                                </div>
-                              </div>
-                        </center>
-                    </div>
-                    <div class="col-md-12 col-lg-4 col-sm-12">
-                        <center>
-                            <div class="q">
-                                <div class="avatar-flip">
-                                    <img src="img/Design_Team/Khyati Kureti.jpg" height="150" width="150">
-                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                                </div>
-                                <h2>Khyati Kureti</h2>
-                                <h4>LiGHT Raipur</h4>
-                    <!--
-                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    -->
-                                <div class="icons">
-                                    <ul>
-                                        <a href="https://www.facebook.com/profile.php?id=100064388675771" target="_blank">
-                                            <li><i class="fa fa-facebook"></i></li>
-                                         </a>
-                                         <a href="mailto:khyatikureti03@gmail.com " target="_blank">
-                                             <li><i class="fa fa-envelope"></i></li>
-                                         </a>
-                                         <a href="#" >
-                                             <li><i class="fa fa-linkedin"></i></li>
-                                         </a>
-                                     </ul>
-                                 </div>
-                               </div>
-                         </center>
-                     </div>
-
-
-                     <div class="col-lg-4 col-sm-12">
-                        <center>
-                            <div class="q">
-                                <div class="avatar-flip">
-                                    <img src="img/Design_Team/Kshitij Patkar.jpg" height="150" width="150">
-                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                                </div>
-                                <h2>Kshitij Deokisan Patkar </h2>
-                                <h4>LiGHT Akola</h4>
-                    <!--
-                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    -->
-                                <div class="icons">
-                                    <ul>
-                                        <a href="#" >
-                                            <li><i class="fa fa-facebook"></i></li>
-                                        </a>
-                                        <a href="mailto:kshitijpatkar55@gmail.com " target="_blank">
-                                            <li><i class="fa fa-envelope"></i></li>
-                                        </a>
-                                        <a href="#">
-                                            <li><i class="fa fa-linkedin"></i></li>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </center>
-                    </div>
-
-
-
-
-
-                </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-                <center>
-                <div class="q">
-                <div class="avatar-flip">
-                <img src="img/Media_Team/KAMISETTY VENKATA NAGA SAI DHEEKSHITHA.jpg" height="150" width="150">
-                <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                </div>
-                <h2>K.V.N.Sai Dheekshitha</h2>
-                <h4>LiGHT Chennai</h4>
-                <!--
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                -->
-                <div class="icons">
-                <ul>
-                   <a href="#" >
-                       <li><i class="fa fa-facebook"></i></li>
-                   </a>
-                   <a href="mailto:kamisettysaimynu2001@gmail.com" target="_blank">
-                       <li><i class="fa fa-envelope"></i></li>
-                   </a>
-                   <a href="#" >
-                       <li><i class="fa fa-linkedin"></i></li>
-                   </a>
-                </ul>
-                </div>
-                </div>
-                </center>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                    <center>
-                    <div class="q">
-                    <div class="avatar-flip">
-                    <img src="img/Design_Team/Megha Ahirwar.jpg" height="150" width="150">
-                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                    </div>
-                    <h2>Megha Ahirwar</h2>
-                    <h4>LiGHT Gwalior Thatipur</h4>
-                    <!--
-                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                    -->
-                    <div class="icons">
-                    <ul>
-                       <a href="#" >
-                           <li><i class="fa fa-facebook"></i></li>
-                       </a>
-                       <a href="mailto:megha10m@outlook.com" target="_blank">
-                           <li><i class="fa fa-envelope"></i></li>
-                       </a>
-                       <a href="https://www.linkedin.com/in/megha-ahirwar-33b01020a" target="_blank">
-                           <li><i class="fa fa-linkedin"></i></li>
-                       </a>
-                    </ul>
-                    </div>
-                    </div>
-                    </center>
-                    </div>
-                    
-                    <div class="col-md-12 col-lg-4 col-sm-12">
-                        <center>
-                        <div class="q">
-                           <div class="avatar-flip">
-                               <img src="img/Media_Team/Mihir dharap.jpg" height="150" width="150">
-                               <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                           </div>
-                           <h2>Mihir Dharap</h2>
-                           <h4>LiGHT Palakkad</h4>
-                        <!--
-                           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                           <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-                        -->
-                           <div class="icons">
-                               <ul>
-                                   <a href="#">
-                                       <li><i class="fa fa-facebook"></i></li>
-                                   </a>
-                                   <a href="mailto:mihirdharap2002@gmail.com" target="_blank">
-                                       <li><i class="fa fa-envelope"></i></li>
-                                   </a>
-                                   <a href="https://www.linkedin.com/in/mihir-dharap-ab3679201" target="_blank">
-                                       <li><i class="fa fa-linkedin"></i></li>
-                                   </a>
-                               </ul>
-                           </div>
-                         </div>
-                        </center>
-                        </div>
-
-
-
-
-
-
-
-          </div>    
-    
-<div class="row">
-
-    <div class="col-lg-4 col-sm-12">
-        <center>
-        <div class="q">
-           <div class="avatar-flip">
-               <img src="img/Media_Team/Naman Sharma.jpg" height="150" width="150">
-               <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-           </div>
-           <h2>Naman Sharma</h2>
-           <h4>LiGHT Gwalior Thatipur</h4>
-        <!--
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                    <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        -->
-        <div class="icons">
-           <ul>
-               <a href="https://www.facebook.com/profile.php?id=100048700913992" target="_blank">
-                   <li><i class="fa fa-facebook"></i></li>
-               </a>
-               <a href="mailto:namansharma0506@gmail.com" target="_blank">
-                   <li><i class="fa fa-envelope"></i></li>
-               </a>
-               <a href="https://www.linkedin.com/in/naman-sharma-638219212" target="_blank">
-                   <li><i class="fa fa-linkedin"></i></li>
-               </a>
-           </ul>
-        </div>
-        </div>
-        </center>
-        </div>
-        <div class="col-md-12 col-lg-4 col-sm-12">
-            <center>
-            <div class="q">
-            <div class="avatar-flip">
-            <img src="img/Media_Team/Shreya Khedkar.jpeg" height="150" width="150">
-            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-            </div>
-            <h2>Shreya Vikas khedkar</h2>
-            <h4>LiGHT Wardha</h4>
-            
-            <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
-            
-            <div class="icons">
-               <ul>
-                   <a href="#" >
-                       <li><i class="fa fa-facebook"></i></li>
-                   </a>
-                   <a href="mailto:shreyakhedkar05@gmail.com" target="_blank">
-                       <li><i class="fa fa-envelope"></i></li>
-                   </a>
-                   <a href="https://www.linkedin.com/in/shreya-khedkar-5b3a68210" target="_blank">
-                       <li><i class="fa fa-linkedin"></i></li>
-                   </a>
-               </ul>
-            </div>
-            </div>
-            </center>
-            </div>
-            <div class="col-md-12 col-lg-4 col-sm-12">
-                <center>
-                    <div class="q">
-                        <div class="avatar-flip">
-                            <img src="img/Design_Team/Shreyash Amrutam.jpg" height="150" width="150">
-                            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                        </div>
-                        <h2>Shreyash Amrutam</h2>
-                        <h4>LiGHT Palakkad</h4>
-            
-                        <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
-            
-                        <div class="icons">
-                           <ul>
-                               <a href="#" >
-                                   <li><i class="fa fa-facebook"></i></li>
-                               </a>
-                               <a href="mailto:shreyash.amrutam2002@gmail.com " target="_blank">
-                                   <li><i class="fa fa-envelope"></i></li>
-                               </a>
-                               <a href="#" >
-                                   <li><i class="fa fa-linkedin"></i></li>
-                               </a>
-                           </ul>
-                       </div>
-                     </div>
-               </center>
-           </div>        
-            
-
-
-
-
-</div>
-
-   <div class="row">
-    <div class="col-lg-4 col-sm-12">
-        <center>
-            <div class="q">
-                <div class="avatar-flip">
-                    <img src="img/Design_Team/Sudhanshu Pandey.jpg" height="150" width="150">
-                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                </div>
-                <h2>Sudhanshu Pandey</h2>
-                <h4>LiGHT Sindri</h4>
-    <!--
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-    -->
-                <div class="icons">
-                    <ul>
-                        <a href="https://www.facebook.com/profile.php?id=100008962456449" target="_blank">
-                            <li><i class="fa fa-facebook"></i></li>
-                        </a>
-                        <a href="mailto:sudhanshurate@gmail.com" target="_blank">
-                            <li><i class="fa fa-envelope"></i></li>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sudhanshu-pandey-a0a60b202" target="_blank">
-                            <li><i class="fa fa-linkedin"></i></li>
-                        </a>
-                    </ul>
-                </div>
-              </div>
-        </center>
-    </div>
-
-    <div class="col-lg-4 col-sm-12">
-        <center>
-        <div class="q">
-        <div class="avatar-flip">
-        <img src="img/Design_Team/supriya shrivastava.jpg" height="150" width="150">
-        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-        </div>
-        <h2>Supriya Shrivastava</h2>
-        <h4>LiGHT Gwalior Thatipur</h4>
-        <!--
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-        -->
-        <div class="icons">
-        <ul>
-           <a href="#" >
-               <li><i class="fa fa-facebook"></i></li>
-           </a>
-           <a href="maito:Supriya07shrivastava@gmail.com" target="_blank">
-               <li><i class="fa fa-envelope"></i></li>
-           </a>
-           <a href="#" >
-               <li><i class="fa fa-linkedin"></i></li>
-           </a>
-        </ul>
-        </div>
-        </div>
-        </center>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-            <center>
-               <div class="q">
-                   <div class="avatar-flip">
-                       <img src="img/Design_Team/Tanay Nakhale.jpg" height="150" width="150">
-                       <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                   </div>
-                   <h2>Tanay Nakhale</h2>
-                   <h4>LiGHT Wardha</h4>
-            <!--
-                   <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                   <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            -->
-            <div class="icons">
-            <ul>
-               <a href="https://www.facebook.com/TanayNakhale"  target="_blank">
-                   <li><i class="fa fa-facebook"></i></li>
-               </a>
-               <a href="mailto:tnakhale22@gmail.com" target="_blank">
-                   <li><i class="fa fa-envelope"></i></li>
-               </a>
-               <a href="https://www.linkedin.com/in/tanay-nakhale-3313111a0/" target="_blank">
-                   <li><i class="fa fa-linkedin"></i></li>
-               </a>
-            </ul>
-            </div>
-            </div>
-            </center>
-            
-            </div>
-
-
-   </div> 
-<div class="row">
-    <div class="col-sm-2"></div>
-
-    <div class="col-md-12 col-lg-4 col-sm-12">
-        <center>
-        <div class="q">
-        <div class="avatar-flip">
-        <img src="img/Media_Team/Vaddadi Jaya Kumar.jpg" height="150" width="150">
-        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-        </div>
-        <h2>Vaddadi Jaya Kumar  </h2>
-        <h4>LiGHT Raipur</h4>
-        
-        <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
-        
-        <div class="icons">
-           <ul>
-               <a href="#" >
-                   <li><i class="fa fa-facebook"></i></li>
-               </a>
-               <a href="mailto:jayakumarvaddadi@gmail.com " target="_blank">
-                   <li><i class="fa fa-envelope"></i></li>
-               </a>
-               <a href="https://www.linkedin.com/in/vaddadi-jaya-kumar-82024a1a6" target="_blank">
-                   <li><i class="fa fa-linkedin"></i></li>
-               </a>
-           </ul>
-        </div>
-        </div>
-        </center>
-        </div>
-        <div class="col-lg-4 col-sm-12">
-            <center>
-               <div class="q">
-                   <div class="avatar-flip">
-                       <img src="img/Design_Team/Vaishnavi Kamekar.jpg" height="150" width="150">
-                       <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
-                   </div>
-                   <h2>Vaishnavi Vipinchandra Kamekar</h2>
-                   <h4>LiGHT Wardha</h4>
-            <!--
-                   <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
-                   <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
-            -->
-                   <div class="icons">
-                       <ul>
-                           <a href="#" >
-                               <li><i class="fa fa-facebook"></i></li>
-                           </a>
-                           <a href="mailto:vaishnavi31kamekar@gmail.com" target="_blank">
-                               <li><i class="fa fa-envelope"></i></li>
-                           </a>
-                           <a href="https://www.linkedin.com/in/vaishnavi-kamekar-8ab6581a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4Zpnp03aRBys%2FzrKSYzKpg%3D%3D" target="_blank">
-                               <li><i class="fa fa-linkedin"></i></li>
-                           </a>
-                       </ul>
-                   </div>
-               </div>
-            </center>
-            </div> 
-        
-
-
-
-
-
-</div>
-</section>
-
-<section id="media_design">
+<section id="ssd">
     <h3 style="text-align: center; padding-top: 25px; color: black"><strong>Social Strategy Development Team</strong></h3>
     <div class="row">
         <div class="col-md-12 col-lg-4 col-sm-12">
@@ -2703,7 +2089,7 @@
                 <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
                 </div>
                 <h2>Akanksha Wagh </h2>
-                <h4>LiGHT Gwalior Thatipur</h4>
+                <h4>LiGHT Samvedana</h4>
                 
                 <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
                 <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
@@ -2734,7 +2120,7 @@
                 <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
                 </div>
                 <h2>Prahar Jamnik</h2>
-                <h4>LiGHT Sindri</h4>
+                <h4>LiGHT Chennai</h4>
                 <!--
                 <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
                 <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -2807,7 +2193,7 @@
                             <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
                             </div>
                             <h2>Sakina Hussain</h2>
-                            <h4>LiGHT Bhubaneswar</h4>
+                            <h4>LiGHT Wardha</h4>
                             <!--
                             <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
                             <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -2874,6 +2260,754 @@
  
 
     </section>
+
+
+
+
+
+
+
+
+<section id="media_design">
+<h3 style="text-align: center; padding-top: 25px; color: black"><strong>Design and Media Heads</strong></h3>
+<div class="row">
+    <div class="col-md-12 col-lg-4 col-sm-12">
+
+        <center>
+            <div class="q">
+            <div class="avatar-flip">
+            <img src="img/Media_Team/Abhinav Kumar.jpg" height="150" width="150">
+            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+            </div>
+            <h2>Abhinav Kumar</h2>
+            <h4>Media And Publicity Head</h4>
+            <h4>LiGHT Sindri</h4>
+            <!--
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            -->
+            <div class="icons">
+            <ul>
+               <a href="#" >
+                   <li><i class="fa fa-facebook"></i></li>
+               </a>
+               <a href="mailto:abhikr987654@gmail.com" target="_blank">
+                   <li><i class="fa fa-envelope"></i></li>
+               </a>
+               <a href="https://www.linkedin.com/in/abhinav-kumar-018366201" target="_blank" >
+                   <li><i class="fa fa-linkedin"></i></li>
+               </a>
+            </ul>
+            </div>
+            </div>
+            </center>
+
+    </div>
+    <div class="col-md-12 col-lg-4 col-sm-12">
+        <center>
+        <div class="q">
+        <div class="avatar-flip">
+        <img src="img/Media_Team/Akul Agrawal.JPG" height="150" width="150">
+        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+        </div>
+        <h2>Akul Agrawal</h2>
+        <h4>Media And Publicity Head</h4>
+        <h4>LiGHT Bhubaneswar</h4>
+        <!--
+        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        -->
+        <div class="icons">
+        <ul>
+           <a href="#" >
+               <li><i class="fa fa-facebook"></i></li>
+           </a>
+           <a href="mailto:akulagrawal228@gmail.com" target="_blank">
+               <li><i class="fa fa-envelope"></i></li>
+           </a>
+           <a href="https://www.linkedin.com/in/akul-agrawal-a20b88179" target="_blank">
+               <li><i class="fa fa-linkedin"></i></li>
+           </a>
+        </ul>
+        </div>
+        </div>
+        </center>
+        </div>
+        <div class="col-md-12 col-lg-4 col-sm-12">
+            <center>
+            <div class="q">
+            <div class="avatar-flip">
+            <img src="img/Design_Team/Anishka Soni.JPG" height="150" width="150">
+            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+            </div>
+            <h2>Anishka Soni </h2>
+            <h4>Design Head</h4>
+            <h4>LiGHT Gwalior Thatipur</h4>
+            
+            <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
+            
+            <div class="icons">
+               <ul>
+                   <a href="#" >
+                       <li><i class="fa fa-facebook"></i></li>
+                   </a>
+                   <a href="mailto:anishkasoni2000@gmail.com" target="_blank">
+                       <li><i class="fa fa-envelope"></i></li>
+                   </a>
+                   <a href="https://www.linkedin.com/in/anishkasoni20" target="_blank">
+                       <li><i class="fa fa-linkedin"></i></li>
+                   </a>
+               </ul>
+            </div>
+            </div>
+            </center>
+            </div>
+            
+           
+            
+            
+            
+            
+            
+
+                <div class="col-md-12 col-lg-4 col-sm-12">
+                    <center>
+                    <div class="q">
+                    <div class="avatar-flip">
+                    <img src="img/Design_Team/Anshul sahu.jpg" height="150" width="150">
+                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                    </div>
+                    <h2>Anshul Sahu</h2>
+                    <h4>Design Head</h4>
+                    <h4>LiGHT Gwalior Thatipur</h4>
+                    <!--
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                    <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                    <div class="icons">
+                    <ul>
+                       <a href="#" >
+                           <li><i class="fa fa-facebook"></i></li>
+                       </a>
+                       <a href="mailto:anshulsahu4268@gmail.com" target="_blank">
+                           <li><i class="fa fa-envelope"></i></li>
+                       </a>
+                       <a href="#" >
+                           <li><i class="fa fa-linkedin"></i></li>
+                       </a>
+                    </ul>
+                    </div>
+                    </div>
+                    </center>
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <center>
+                            <div class="q">
+                                <div class="avatar-flip">
+                                    <img src="img/Design_Team/Ayush Panda.jpg" height="150" width="150">
+                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                                </div>
+                                <h2>Ayush Panda</h2>
+                                <h4>Design Head</h4>
+                                <h4>LiGHT Bhubaneswar </h4>
+                    <!--
+                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                                <div class="icons">
+                                    <ul>
+                                        <a href="#" >
+                                            <li><i class="fa fa-facebook"></i></li>
+                                        </a>
+                                        <a href="maito:Ayushiit52@gmail.com " target="_blank">
+                                            <li><i class="fa fa-envelope"></i></li>
+                                        </a>
+                                        <a href="#">
+                                           <li><i class="fa fa-linkedin"></i></li>
+                                       </a>
+                                   </ul>
+                               </div>
+                           </div>
+                       </center>
+                   </div>
+
+                   <center>
+                    <div class="q">
+                    <div class="avatar-flip">
+                    <img src="img/Media_Team/Ayush Bhagat.jpg" height="150" width="150">
+                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                    </div>
+                    <h2>Ayush Bhagat</h2>
+                    <h4>Media And Publicity Head</h4>
+                    <h4>LiGHT Samvedna</h4>
+                    <!--
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                    <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                    <div class="icons">
+                    <ul>
+                       <a href="#" >
+                           <li><i class="fa fa-facebook"></i></li>
+                       </a>
+                       <a href="#" target="_blank">
+                           <li><i class="fa fa-envelope"></i></li>
+                       </a>
+                       <a href="https://www.linkedin.com/in/ayush-bhagat-0a3879176" target="_blank" >
+                           <li><i class="fa fa-linkedin"></i></li>
+                       </a>
+                    </ul>
+                    </div>
+                    </div>
+                    </center>
+
+
+
+
+                   <div class="col-lg-4 col-sm-12">
+                    <center>
+                        <div class="q">
+                        <div class="avatar-flip">
+                        <img src="img/Media_Team/Bunga Havilah.jpg" height="150" width="150">
+                        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                        </div>
+                        <h2>Bunga Havilah</h2>
+                        <h4>Media And Publicity Head</h4>
+                        <h4>LiGHT Raipur</h4>
+                        <!--
+                        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        -->
+                        <div class="icons">
+                        <ul>
+                           <a href="https://www.facebook.com/havilah.havilah.56" target="_blank">
+                               <li><i class="fa fa-facebook"></i></li>
+                           </a>
+                           <a href="mailto:havilahbunga178100@gmail.com" target="_blank">
+                               <li><i class="fa fa-envelope"></i></li>
+                           </a>
+                           <a href="https://www.linkedin.com/in/bunga-havilah-65566b1b9" target="_blank">
+                               <li><i class="fa fa-linkedin"></i></li>
+                           </a>
+                        </ul>
+                        </div>
+                        </div>
+                        </center>
+                </div>
+
+                    <div class="col-md-12 col-lg-4 col-sm-12">
+                        <center>
+                            <div class="q">
+                                <div class="avatar-flip">
+                                    <img src="img/Design_Team/Govind Kumar.jpg" height="150" width="150">
+                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                                </div>
+                                <h2>Govind Kumar </h2>
+                                <h4>Design Head</h4>
+                                <h4>LiGHT Raipur</h4>
+                    
+                                <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
+                    
+                                <div class="icons">
+                                    <ul>
+                                        <a href="#" >
+                                            <li><i class="fa fa-facebook"></i></li>
+                                        </a>
+                                        <a href="mailto:govindkumar38980@gmail.com" target="_blank">
+                                            <li><i class="fa fa-envelope"></i></li>
+                                        </a>
+                                        <a href="#" >
+                                            <li><i class="fa fa-linkedin"></i></li>
+                                        </a>
+                                    </ul>
+                                </div>
+                              </div>
+                        </center>
+                    </div>
+                    <div class="col-md-12 col-lg-4 col-sm-12">
+                        <center>
+                            <div class="q">
+                                <div class="avatar-flip">
+                                    <img src="img/Design_Team/Khyati Kureti.jpg" height="150" width="150">
+                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                                </div>
+                                <h2>Khyati Kureti</h2>
+                                <h4>Design Head</h4>
+                                <h4>LiGHT Raipur</h4>
+                    <!--
+                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                                <div class="icons">
+                                    <ul>
+                                        <a href="https://www.facebook.com/profile.php?id=100064388675771" target="_blank">
+                                            <li><i class="fa fa-facebook"></i></li>
+                                         </a>
+                                         <a href="mailto:khyatikureti03@gmail.com " target="_blank">
+                                             <li><i class="fa fa-envelope"></i></li>
+                                         </a>
+                                         <a href="#" >
+                                             <li><i class="fa fa-linkedin"></i></li>
+                                         </a>
+                                     </ul>
+                                 </div>
+                               </div>
+                         </center>
+                     </div>
+
+
+                     <div class="col-lg-4 col-sm-12">
+                        <center>
+                            <div class="q">
+                                <div class="avatar-flip">
+                                    <img src="img/Design_Team/Kshitij Patkar.jpg" height="150" width="150">
+                                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                                </div>
+                                <h2>Kshitij Patkar </h2>
+                                <h4>Design Head</h4>
+                                <h4>LiGHT Akola</h4>
+                    <!--
+                                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                                <div class="icons">
+                                    <ul>
+                                        <a href="#" >
+                                            <li><i class="fa fa-facebook"></i></li>
+                                        </a>
+                                        <a href="mailto:kshitijpatkar55@gmail.com " target="_blank">
+                                            <li><i class="fa fa-envelope"></i></li>
+                                        </a>
+                                        <a href="#">
+                                            <li><i class="fa fa-linkedin"></i></li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+
+
+
+
+
+
+            <div class="col-lg-4 col-sm-12">
+                <center>
+                <div class="q">
+                <div class="avatar-flip">
+                <img src="img/Media_Team/KAMISETTY VENKATA NAGA SAI DHEEKSHITHA.jpg" height="150" width="150">
+                <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                </div>
+                <h2>Sai Dheekshitha</h2>
+                <h4>Media And Publicity Head</h4>
+                <h4>LiGHT Chennai</h4>
+                <!--
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                -->
+                <div class="icons">
+                <ul>
+                   <a href="#" >
+                       <li><i class="fa fa-facebook"></i></li>
+                   </a>
+                   <a href="mailto:kamisettysaimynu2001@gmail.com" target="_blank">
+                       <li><i class="fa fa-envelope"></i></li>
+                   </a>
+                   <a href="#" >
+                       <li><i class="fa fa-linkedin"></i></li>
+                   </a>
+                </ul>
+                </div>
+                </div>
+                </center>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <center>
+                    <div class="q">
+                    <div class="avatar-flip">
+                    <img src="img/Design_Team/Megha Ahirwar.jpg" height="150" width="150">
+                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                    </div>
+                    <h2>Megha Ahirwar</h2>
+                    <h4>Design Head</h4>
+                    <h4>LiGHT Gwalior Thatipur</h4>
+                    <!--
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    -->
+                    <div class="icons">
+                    <ul>
+                       <a href="#" >
+                           <li><i class="fa fa-facebook"></i></li>
+                       </a>
+                       <a href="mailto:megha10m@outlook.com" target="_blank">
+                           <li><i class="fa fa-envelope"></i></li>
+                       </a>
+                       <a href="https://www.linkedin.com/in/megha-ahirwar-33b01020a" target="_blank">
+                           <li><i class="fa fa-linkedin"></i></li>
+                       </a>
+                    </ul>
+                    </div>
+                    </div>
+                    </center>
+                    </div>
+                    
+                    <div class="col-md-12 col-lg-4 col-sm-12">
+                        <center>
+                        <div class="q">
+                           <div class="avatar-flip">
+                               <img src="img/Media_Team/Mihir dharap.jpg" height="150" width="150">
+                               <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                           </div>
+                           <h2>Mihir Dharap</h2>
+                           <h4>Media And Publicity Head</h4>
+                           <h4>LiGHT Palakkad</h4>
+                        <!--
+                           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                           <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                        -->
+                           <div class="icons">
+                               <ul>
+                                   <a href="#">
+                                       <li><i class="fa fa-facebook"></i></li>
+                                   </a>
+                                   <a href="mailto:mihirdharap2002@gmail.com" target="_blank">
+                                       <li><i class="fa fa-envelope"></i></li>
+                                   </a>
+                                   <a href="https://www.linkedin.com/in/mihir-dharap-ab3679201" target="_blank">
+                                       <li><i class="fa fa-linkedin"></i></li>
+                                   </a>
+                               </ul>
+                           </div>
+                         </div>
+                        </center>
+                        </div>
+
+
+
+
+
+
+
+
+    <div class="col-lg-4 col-sm-12">
+        <center>
+        <div class="q">
+           <div class="avatar-flip">
+               <img src="img/Media_Team/Naman Sharma.jpg" height="150" width="150">
+               <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+           </div>
+           <h2>Naman Sharma</h2>
+           <h4>Media And Publicity Head</h4>
+           <h4>LiGHT Gwalior Thatipur</h4>
+        <!--
+        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                    <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        -->
+        <div class="icons">
+           <ul>
+               <a href="https://www.facebook.com/profile.php?id=100048700913992" target="_blank">
+                   <li><i class="fa fa-facebook"></i></li>
+               </a>
+               <a href="mailto:namansharma0506@gmail.com" target="_blank">
+                   <li><i class="fa fa-envelope"></i></li>
+               </a>
+               <a href="https://www.linkedin.com/in/naman-sharma-638219212" target="_blank">
+                   <li><i class="fa fa-linkedin"></i></li>
+               </a>
+           </ul>
+        </div>
+        </div>
+        </center>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-12">
+            <center>
+            <div class="q">
+               <div class="avatar-flip">
+                   <img src="img/Design_Team/PRANJALI PAWAR.jpg" height="150" width="150">
+                   <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+               </div>
+               <h2>Pranjali Pawar</h2>
+               <h4>Design Head</h4>
+               <h4>LiGHT Samvedna</h4>
+            <!--
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            -->
+            <div class="icons">
+               <ul>
+                   <a href="#" target="_blank">
+                       <li><i class="fa fa-facebook"></i></li>
+                   </a>
+                   <a href="#" target="_blank">
+                       <li><i class="fa fa-envelope"></i></li>
+                   </a>
+                   <a href="https://www.linkedin.com/in/pranjali-pawar-290373202" target="_blank">
+                       <li><i class="fa fa-linkedin"></i></li>
+                   </a>
+               </ul>
+            </div>
+            </div>
+            </center>
+            </div>
+
+
+
+
+        <div class="col-md-12 col-lg-4 col-sm-12">
+            <center>
+            <div class="q">
+            <div class="avatar-flip">
+            <img src="img/Media_Team/Shreya Khedkar.jpeg" height="150" width="150">
+            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+            </div>
+            <h2>Shreya khedkar</h2>
+            <h4>Media And Publicity Head</h4>
+            <h4>LiGHT Wardha</h4>
+            
+            <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+            <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
+            
+            <div class="icons">
+               <ul>
+                   <a href="#" >
+                       <li><i class="fa fa-facebook"></i></li>
+                   </a>
+                   <a href="mailto:shreyakhedkar05@gmail.com" target="_blank">
+                       <li><i class="fa fa-envelope"></i></li>
+                   </a>
+                   <a href="https://www.linkedin.com/in/shreya-khedkar-5b3a68210" target="_blank">
+                       <li><i class="fa fa-linkedin"></i></li>
+                   </a>
+               </ul>
+            </div>
+            </div>
+            </center>
+            </div>
+            <div class="col-md-12 col-lg-4 col-sm-12">
+                <center>
+                    <div class="q">
+                        <div class="avatar-flip">
+                            <img src="img/Design_Team/Shreyash Amrutam.jpg" height="150" width="150">
+                            <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                        </div>
+                        <h2>Shreyash Amrutam</h2>
+                        <h4>Design Head</h4>
+                        <h4>LiGHT Palakkad</h4>
+            
+                        <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
+            
+                        <div class="icons">
+                           <ul>
+                               <a href="#" >
+                                   <li><i class="fa fa-facebook"></i></li>
+                               </a>
+                               <a href="mailto:shreyash.amrutam2002@gmail.com " target="_blank">
+                                   <li><i class="fa fa-envelope"></i></li>
+                               </a>
+                               <a href="#" >
+                                   <li><i class="fa fa-linkedin"></i></li>
+                               </a>
+                           </ul>
+                       </div>
+                     </div>
+               </center>
+           </div>        
+            
+
+
+
+
+
+    <div class="col-lg-4 col-sm-12">
+        <center>
+            <div class="q">
+                <div class="avatar-flip">
+                    <img src="img/Design_Team/Sudhanshu Pandey.jpg" height="150" width="150">
+                    <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                </div>
+                <h2>Sudhanshu Pandey</h2>
+                <h4>Design Head</h4>
+                <h4>LiGHT Sindri</h4>
+    <!--
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+    -->
+                <div class="icons">
+                    <ul>
+                        <a href="https://www.facebook.com/profile.php?id=100008962456449" target="_blank">
+                            <li><i class="fa fa-facebook"></i></li>
+                        </a>
+                        <a href="mailto:sudhanshurate@gmail.com" target="_blank">
+                            <li><i class="fa fa-envelope"></i></li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sudhanshu-pandey-a0a60b202" target="_blank">
+                            <li><i class="fa fa-linkedin"></i></li>
+                        </a>
+                    </ul>
+                </div>
+              </div>
+        </center>
+    </div>
+
+    <div class="col-lg-4 col-sm-12">
+        <center>
+        <div class="q">
+        <div class="avatar-flip">
+        <img src="img/Design_Team/supriya shrivastava.jpg" height="150" width="150">
+        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+        </div>
+        <h2>Supriya Shrivastava</h2>
+        <h4>Design Head</h4>
+        <h4>LiGHT Gwalior Thatipur</h4>
+        <!--
+        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        -->
+        <div class="icons">
+        <ul>
+           <a href="#" >
+               <li><i class="fa fa-facebook"></i></li>
+           </a>
+           <a href="maito:Supriya07shrivastava@gmail.com" target="_blank">
+               <li><i class="fa fa-envelope"></i></li>
+           </a>
+           <a href="#" >
+               <li><i class="fa fa-linkedin"></i></li>
+           </a>
+        </ul>
+        </div>
+        </div>
+        </center>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+            <center>
+               <div class="q">
+                   <div class="avatar-flip">
+                       <img src="img/Design_Team/Tanay Nakhale.jpg" height="150" width="150">
+                       <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                   </div>
+                   <h2>Tanay Nakhale</h2>
+                   <h4>Design Head</h4>
+                   <h4>LiGHT Wardha</h4>
+            <!--
+                   <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                   <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            -->
+            <div class="icons">
+            <ul>
+               <a href="https://www.facebook.com/TanayNakhale"  target="_blank">
+                   <li><i class="fa fa-facebook"></i></li>
+               </a>
+               <a href="mailto:tnakhale22@gmail.com" target="_blank">
+                   <li><i class="fa fa-envelope"></i></li>
+               </a>
+               <a href="https://www.linkedin.com/in/tanay-nakhale-3313111a0/" target="_blank">
+                   <li><i class="fa fa-linkedin"></i></li>
+               </a>
+            </ul>
+            </div>
+            </div>
+            </center>
+            
+            </div>
+
+
+
+
+
+    <div class="col-md-12 col-lg-4 col-sm-12">
+        <center>
+        <div class="q">
+        <div class="avatar-flip">
+        <img src="img/Media_Team/Vaddadi Jaya Kumar.jpg" height="150" width="150">
+        <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+        </div>
+        <h2>Vaddadi Jaya Kumar</h2>
+        <h4>Media And Publicity Head</h4>
+        <h4>LiGHT Raipur</h4>
+        
+        <!-- <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+        <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p> -->
+        
+        <div class="icons">
+           <ul>
+               <a href="#" >
+                   <li><i class="fa fa-facebook"></i></li>
+               </a>
+               <a href="mailto:jayakumarvaddadi@gmail.com " target="_blank">
+                   <li><i class="fa fa-envelope"></i></li>
+               </a>
+               <a href="https://www.linkedin.com/in/vaddadi-jaya-kumar-82024a1a6" target="_blank">
+                   <li><i class="fa fa-linkedin"></i></li>
+               </a>
+           </ul>
+        </div>
+        </div>
+        </center>
+        </div>
+
+
+
+        
+    
+
+
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-4"></div>
+
+
+
+        <div class="col-lg-4 col-sm-12 ">
+            <center>
+               <div class="q">
+                   <div class="avatar-flip">
+                       <img src="img/Design_Team/Vaishnavi Kamekar.jpg" height="150" width="150">
+                       <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+                   </div>
+                   <h2>Vaishnavi Kamekar</h2>
+                   <h4>Design Head</h4>
+                   <h4>LiGHT Wardha</h4>
+            <!--
+                   <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+                   <p>Connec dolore ipsum faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            -->
+                   <div class="icons">
+                       <ul>
+                           <a href="#" >
+                               <li><i class="fa fa-facebook"></i></li>
+                           </a>
+                           <a href="mailto:vaishnavi31kamekar@gmail.com" target="_blank">
+                               <li><i class="fa fa-envelope"></i></li>
+                           </a>
+                           <a href="https://www.linkedin.com/in/vaishnavi-kamekar-8ab6581a0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4Zpnp03aRBys%2FzrKSYzKpg%3D%3D" target="_blank">
+                               <li><i class="fa fa-linkedin"></i></li>
+                           </a>
+                       </ul>
+                   </div>
+               </div>
+            </center>
+            </div> 
+
+        
+
+
+
+
+
+</div>
+</section>
+
+
   
 
    
@@ -2939,8 +3073,8 @@ Footer
 <div class="row justify-content-center">
 
 <div class="col-lg-4 col-md-6 footer-info">
-<h3>LIGHT</h3>
-<p>LIGHT is an initiative of one of India's largest student-run government registered NGO Gopali Youth Welfare Society, based in IIT Kharagpur. Gopali Youth Welfare Society aims at the overall socio-economic development of the underprivileged near the IIT Kharagpur campus.</p>
+<h3>LiGHT</h3>
+<p>LiGHT is an initiative of one of India's largest student-run government registered NGO Gopali Youth Welfare Society, based in IIT Kharagpur. Gopali Youth Welfare Society aims at the overall socio-economic development of the underprivileged near the IIT Kharagpur campus.</p>
 </div>
 
 <div class="col-lg-4 col-md-6 footer-links">
@@ -2960,14 +3094,14 @@ Footer
  Gopali (No-shooting Area),  <br>
  P.O. – Salua, Dist. – Paschim Medinipur,<br>
  West Bengal, Pin-721145. <br>
- <strong>Phone: <a href="tel:+917566782230">+91 756-678-2230</a></strong><br>
- <strong>Email: <a href="mailto: light.gyws@gmail.com" target="_blank">light.gyws@gmail.com</a></strong><br>
+ <strong>Phone: <a href="tel:+91 9125220499" class="footer-link">+91 912-522-0499</a></strong><br>
+ <strong>Email: <a href="mailto: LiGHT.gyws@gmail.com" target="_blank">LiGHT.gyws@gmail.com</a></strong><br>
 </p>
 
 <div class="social-links">
  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
- <a href="https://www.facebook.com/LIGHT.L8/" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a>
- <a href="https://www.instagram.com/light_gyws/" class="instagram"  target="_blank"><i class="fa fa-instagram"></i></a>
+ <a href="https://www.facebook.com/LiGHT.L8/" class="facebook"  target="_blank"><i class="fa fa-facebook"></i></a>
+ <a href="https://www.instagram.com/LiGHT_gyws/" class="instagram"  target="_blank"><i class="fa fa-instagram"></i></a>
  <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
 </div>
@@ -2982,7 +3116,7 @@ Footer
 
 <div class="container">
 <div class="copyright">
-&copy; Copyright <strong>LIGHT - GYWS</strong>. All Rights Reserved
+&copy; Copyright <strong>LiGHT - GYWS</strong>. All Rights Reserved
 </div>
 </div>
 </footer><!-- #footer -->
@@ -3002,14 +3136,14 @@ Footer
   <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/LiGHTbox/js/LiGHTbox.min.js"></script>
   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -8,9 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   background: #fff;
+
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -82,6 +86,119 @@ h6 {
   float: left;
   margin-top: 5%;
 }
+/*Moniraj*/
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 0px;
+}
+body nav.navbar.bg-dark{
+  background-color: #000000 !important;
+  color: #fff;
+}
+body nav.navbar.bg-dark .container{
+  color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #FFF !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  transition: all .8s;
+}
+.navbar-light .navbar-brand{
+  color: #FFF !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  transition: all .8s;
+  margin-left: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#18d26e !important;
+}
+.navbar-light .navbar-toggler-icon{
+  background-color: #fff;
+}
+.navbar-nav{
+  align-items: center;
+}
+.make-bm-0{
+  margin-bottom: 0 !important;
+}
+.mentor-testimonial-img-a{
+  height: 180px;
+  width: 200px;
+ 
+}
+.poster-ccp-l{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.poster-ccp-l .card{
+  width: 320px !important;
+  margin: 20px;
+}
+.card-cleanliness,.cleanliness-row{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  align-content: center;
+  display: block;
+  margin: auto;
+}
+.card-cleanliness img{
+  width: 100%;
+}
+.image-post{
+  text-align: center;
+  color: #18d26e;
+}
+@media (max-width:900px){
+  .mentor-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -35px;
+  }
+
+}
+@media (max-width:600px){
+  .q{
+    margin-bottom: 20px !important;
+  }
+  .image-post{
+    text-align: center;
+    color: #18d26e;
+  }
+}
+
+
+
+
+
+
+
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  /* margin-left: -15px; */
+}
+.event-card-rise{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin: auto !important;
+}
+
 
 
 
@@ -591,7 +708,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header h3 {
   font-size: 32px;
   color: #111;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -1457,6 +1573,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.footer-link{
+  color: #13a456;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
@@ -1477,6 +1597,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 80%;
+  }
+  /* Moniraj */
+  .mentor-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -1665,6 +1791,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     top: 18%;
     transform: translateX(-50%) translateY(-18%);
   }
+  /* Moniraj */
+  #about .about-col{
+    box-shadow: none;
+  }.event-card-rise{
+    margin-bottom: 30px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin:20px auto !important;
+    
+  }
+ 
+  
 }
 
 .member-card {
@@ -1764,5 +1902,9 @@ h2 {
   margin-bottom: 10px;
   font-size: 17px;
   font-weight: bold;
+}
+
+.footerhead {
+  text-align: left;
 }
 	
