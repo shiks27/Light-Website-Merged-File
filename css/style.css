@@ -181,7 +181,17 @@ body nav.navbar.bg-dark .container{
     color: #18d26e;
   }
 }
-
+@media (min-width:600px){
+  .exception-navbar{
+    margin-left: 320px;
+  }
+}
+.exception-light{
+  margin-left: 3px !important;
+}
+.navbar-botom-margin{
+  margin-bottom: 0 !important;
+}
 
 
 

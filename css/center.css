@@ -103,16 +103,11 @@ h6 {
   
   /* Sections Header
   --------------------------------*/
-<<<<<<< HEAD
-  
-  .
   
   
-  -header {
-=======
-  /*Moniraj*/
-  .section-header {
->>>>>>> dfa689faffd7818954bec160b98dc346a1a8e576
+  
+  
+  .header {
     margin-bottom: 60px;
     position: relative;
     padding-bottom: 0px;
@@ -334,7 +329,7 @@ body.scrollable {
 
 .timeline {
     white-space: nowrap;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .timeline ol {

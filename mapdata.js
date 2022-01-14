@@ -219,9 +219,9 @@ var simplemaps_countrymap_mapdata={
     "0": {
       lat: "23.2048",
       lng: "77.4352",
-      name: "Samvedna",
-      url: "./center_samvedna.html",
-      description: "Light Samvedna works with a vision to channelize the youth towards social challenges. Creating social leaders who can solve social problems with the utilization of their engineering skills has always been our main intention while working in this sector. On the other hand, LiGHT Wardha believes LiGHT is an admirable platform and being a part of it was a great investment for all of us as it not only helps in shaping the society but it will also help us to develop our professional skills."
+      name: "Samvedhna",
+      url: "./center_samvedhna.html",
+      description: "Light Samvedhna works with a vision to channelize the youth towards social challenges. Creating social leaders who can solve social problems with the utilization of their engineering skills has always been our main intention while working in this sector. On the other hand, LiGHT Wardha believes LiGHT is an admirable platform and being a part of it was a great investment for all of us as it not only helps in shaping the society but it will also help us to develop our professional skills."
     },
     "1": {
       lat: "23.7483",
@@ -268,8 +268,8 @@ var simplemaps_countrymap_mapdata={
     "8": {
       lat: "10.7867",
       lng: "76.6548",
-      name: "Palakkad",
-      url: "./center_palakkad.html",
+      name: "Pallakad",
+      url: "./center_pallakad.html",
       description: "LIGHT has come up with a platform to accomplish the necessities of the feeble fragments of a community. It is a unique body whose fabric has been woven by a very strong network of socially motivated students."
     },
     "9": {
