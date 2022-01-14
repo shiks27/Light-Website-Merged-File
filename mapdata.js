@@ -230,13 +230,6 @@ var simplemaps_countrymap_mapdata={
       url: "./center_sindri.html",
       description: "LiGHT Sindri was established in June 2021 in online mode. Our team enthusiastically participated in the INTER CENTER COMPETITION and graciously organized its first event in the month of November targeting teachers as a channel to bring significant impact to the education system. We also introduced the solutions like usage of ‘chatbot’ in schools and presented a live demonstration of a self-prepared ‘Telegram Bot’ for both teachers and students. Starting with such an impactful event, LiGHT Sindri focuses on working for those sections of society that are still untouched and need to be worked upon for a better society."
     },
-    // "2": {
-    //   lat: "31.6340",
-    //   lng: "74.8723",
-    //   name: "Sukhmani",
-    //   description: "LIGHT SUKHMANI was formed in november 2019 .The centre was made with determination and by hardworking people for the betterment of the society. Our vision is to work hard and learn new skills with our fellow members and solve various problems of the society, and expand our horizon of work and network with people.",
-    //   url: "./center_sukhmani.html"
-    // },
     "3": {
       lat: "20.7002",
       lng: "77.0082",
